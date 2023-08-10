@@ -87,7 +87,9 @@ label, input, button {
 
 .navbar {
     max-width: 1200px;
+    padding: 0 15px;
     padding-top: 28px;
+
 
     display: flex; 
     justify-content: space-between;
@@ -260,6 +262,15 @@ label, input, button {
     z-index: 2;
 }
 
+.trend__categories {
+    margin-bottom: 10px;
+}
+
+.category-li {
+    display: inline;
+    margin-right: 19px;
+}
+
 .category-trend {
     text-transform: uppercase;
     
@@ -269,7 +280,7 @@ label, input, button {
     color: #b59f5b;
     font-size: 14px;
     cursor: pointer;
-    margin-right: 19px;
+    
 }
 
 .category-trend:last-child {
@@ -329,6 +340,7 @@ label, input, button {
     align-items: flex-start;
     box-sizing: border-box;
     padding-bottom: 59px;
+
 }
 
 .card:last-child {
@@ -345,6 +357,7 @@ label, input, button {
 .card__information {
     display: flex;
     flex-direction: column;
+    
 }
 
 .category-link {
@@ -676,3 +689,194 @@ label, input, button {
     padding-bottom: 3px;
 }
     
+
+/*<<<<<—————————— Последний блок ——————————>>>>>*/
+
+.products {
+    padding: 64px 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.products__title {
+    width: 100%;
+    margin-bottom: 30px;
+
+    display: block;
+
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    font-family: OpenSans, serif;
+    font-weight: bold;
+    
+    color: #0f0d0e;
+}
+
+
+.products__title::after {
+    content: '';
+
+    display: block;
+
+    width: 66px;
+    height: 3px;
+    margin: 12px auto 0;
+
+    background-color: #e1d9bd;
+}
+
+.products__container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 60px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 347px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: OpenSans, serif;
+    color: #0f0d0e;
+}
+
+.product-img {
+    margin: 0 auto;
+    height: 204px;
+    
+}
+
+.product-description {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    padding: 15px 22px;
+    margin-top: -35px;
+    flex-grow: 1;
+}
+
+.product-title {
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding-top: 35px;
+}
+
+.product-text {
+    font-size: 0.75em;
+    line-height: 22px;
+    font-family: inherit;
+}
+
+.product-text-decoration {
+    color: #b59f5b;
+}
+
+.product-text-decoration:hover {
+    text-decoration: underline #b59f5b solid;
+}
+
+.product-price-in-shop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.price {
+    display: block;
+    height: 48px;
+}
+
+.product-price-old {
+    font-size: 0.7em;
+    font-family: inherit;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.product-price-new {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.shop-btn {
+    background-color: #b59f5b;
+    width: 140px;
+    height: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 0.7em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    background-color: #323232;
+}
+
+
+/*<<<<<—————————— Последний блок ——————————>>>>>*/
+
+
+.footer-container {
+    background-color: #f4f7f6;
+    height: 83px;
+    margin: 0 auto;
+ 
+}
+
+.svg-list {
+    display: flex;
+    justify-content: center;
+}
+
+.svg-list-link {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 30px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+.svg-dribbble {
+    background-image: url(../svg/001-dribbble.svg);
+}
+
+.svg-pinterest {
+    background-image: url(../svg/001-pinterest.svg);
+}
+
+.svg-tumblr {
+    background-image: url(../svg/003-tumblr.svg);
+}
+
+.footer-last-text {
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: OpenSans, serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #999999;
+    
+}
