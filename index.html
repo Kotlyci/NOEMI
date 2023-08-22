@@ -10,6 +10,45 @@
     <link rel="stylesheet" media="(max-width: 450px) and (min-width: 360px)" href="css/mobile.css">
 </head>
 <body>
+    <div class="popup popup_hidden">
+		<div class="popup_container">
+			<a href="#0" class="close"></a>
+			<h2 class="popup_title">Ваш фидбек</h2>
+			<form class="form_feedback">
+				<div class="feedback_row">
+					<label class="feedback_label"><span>Как часто вы заходите на сайт?</span>
+						<select class="feedback_option">
+							<option class="option" selected="">Почти каждый день</option>
+							<option class="option">Раз в несколько дней</option>
+							<option class="option">Раз в несколько недель</option>
+							<option class="option">Несколько раз в год</option>
+						</select>
+					</label>
+					<div class="feedback_row">
+						<div class="radio_container">
+							<p class="radio_text">Вы подписаны на e-mail рассылку?</p>
+							<div class="radio">
+								<input class="radio_btn" type="radio" name="subscribe" id="radio_yes" checked="">
+								<label class="radio_label" for="radio_yes">Да</label>
+							</div>
+							<div class="radio">
+								<input class="radio_btn" type="radio" name="subscribe" id="radio_no">
+								<label class="radio_label" for="radio_no">Нет</label>
+							</div>
+						</div>
+					</div>
+					<div class="feedback_row">
+						<div class="question">
+							<label class="feedback_label"><span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+								<textarea class="question_text " placeholder="Может, больше рецептов?" required=""></textarea>
+							</label>
+						</div>
+					</div>
+					<button type="submit" class="popup_btn">Отправить</button>
+		        </div>
+            </form>
+	    </div>
+	</div>
     <header class="header">
         <div class="navbar">
             <a href="#" class="navbar__logo">
@@ -368,8 +407,8 @@
                     <p class="product-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#" class="product-text-decoration">здесь</a>.</p>
                     <div class="product-price-in-shop">
                         <div class="price">
-                            <p class="product-price-old">1000 &#8381</p>
-                            <p class="product-price-new">800 &#8381</p>
+                            <p class="product-price-old">1000 ₽</p>
+                            <p class="product-price-new">800 ₽</p>
                         </div>
                         <button class="shop-btn">В магазин</button>
                     </div> 
@@ -382,7 +421,7 @@
                     <p class="product-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#" class="product-text-decoration">весенняя серия постов</a> в блоге и несколько подкастов.</p>
                     <div class="product-price-in-shop">
                         <div class="price">
-                            <p class="product-price-new">3500 &#8381</p>
+                            <p class="product-price-new">3500 ₽</p>
                         </div>
                         <button class="shop-btn">В магазин</button>
                     </div>
@@ -395,8 +434,8 @@
                     <p class="product-text">Необычная рамка для украшения дома из видео <a href="#" class="product-text-decoration">«Как сделать рамку из подручных средств за 30 минут»</a></p>
                     <div class="product-price-in-shop">
                         <div class="price">
-                            <p class="product-price-old">500 &#8381</p>
-                            <p class="product-price-new">400 &#8381</p>
+                            <p class="product-price-old">500 ₽</p>
+                            <p class="product-price-new">400 ₽</p>
                         </div>
                         <button class="shop-btn">В магазин</button>
                     </div>
