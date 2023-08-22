@@ -1,3 +1,13 @@
+body {
+    max-width: 450px;
+    min-width: 360px;
+
+}
+
+.footer {
+    width: 100%;
+}
+
 .header {
     background-image: url('../images/banner-mobile.jpg');
     height: 638px;
@@ -74,6 +84,17 @@
     justify-content: flex-end;
 }
 
+.card__title {
+    margin-top: 5px;
+}
+
+.cards {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card__time {
     display: inline;
 }
@@ -86,16 +107,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 320px;
+    width: 330px;
     padding-bottom: 25px;
     margin-bottom: 35px;
     border-bottom: solid 3px #eeeeee;
 
 }
 
+.card:last-child {
+    padding-bottom: 24px;
+    margin-bottom: 0;
+}
+
 .trends__container {
     display: flex;
     flex-direction: column;
+}
+
+.trends {
+    max-width: 100%;
 }
 
 .trend {
@@ -107,11 +137,7 @@
     margin-right: 0;
     margin-bottom: 3px;
     flex-direction: column;
-    justify-content: end;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
+
 }
 
 .img-picture {
@@ -141,8 +167,43 @@
 }
 
 .aside {
-    max-width: 330px;
+    max-width: 360px;
 
+}
+
+.aside__new-posts {
+    margin-top: 44px;
+    margin-left: 15px;
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-posts__container {
+    max-height: 438px;
+    margin-top: 30px;
+    padding-bottom: 55px;
+}
+
+.aside__mailing {
+    margin-bottom: 44px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.tegs__container {
+    margin-bottom: 44px;
+    margin: 0 15px;
+    width: 330px;
+}
+
+.aside__themes {
+    padding-top: 44px;
+    margin: 0 15px;
 }
 
 .aside-title {
@@ -160,4 +221,19 @@
 .products__container {
     margin: 0 auto;
     gap: 25px;
+    margin-bottom: 44px;
+}
+
+.products__title {
+    margin-top: 44px;
+    font-size: 16px;
+}
+
+.card__time-author {
+    margin: 25px 0;
+}
+
+.popup_container {
+    width: 330px;
+
 }
