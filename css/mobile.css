@@ -1,0 +1,163 @@
+.header {
+    background-image: url('../images/banner-mobile.jpg');
+    height: 638px;
+}
+
+.nav {
+    display: none;
+}
+
+.nav__burger {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 3px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.nav__burger::after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.nav__burger::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.main {
+    margin: 0 auto;
+    width: 360px;
+    
+    padding: 0 15px;
+    padding-top: 580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__logo {
+    display: none;
+}
+
+.navbar__logo-mobile {
+    margin: auto auto;
+    margin-top: 180px;
+    width: 269px;
+
+    display: block;
+}
+
+.title {
+    font-size: 26px;
+    line-height: 36px;
+    width: 280px;
+}
+
+.logo-mobile {
+    margin: auto auto;
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card__time {
+    display: inline;
+}
+
+.card__author {
+    display: inline;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: solid 3px #eeeeee;
+
+}
+
+.trends__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.trend {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    height: 230px;
+    min-height: 230px;
+    margin-right: 0;
+    margin-bottom: 3px;
+    flex-direction: column;
+    justify-content: end;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.img-picture {
+    width: 330px;
+
+    margin-right: 0;
+    height: 255px;
+}
+
+.products {
+    min-width: 330px;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-description {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 347px;
+    min-height: 267px;
+    box-sizing: border-box;
+    border: 3px solid rgba(181, 159, 91, 0.5);
+    padding: 15px 22px;
+    margin-top: -35px;
+}
+
+.aside {
+    max-width: 330px;
+
+}
+
+.aside-title {
+    font-size: 16px;
+}
+
+.tegs-list {
+    gap: 5px;
+}
+
+.search-form-input {
+    width: 282px;
+}
+
+.products__container {
+    margin: 0 auto;
+    gap: 25px;
+}

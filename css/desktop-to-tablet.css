@@ -1,0 +1,57 @@
+.trends__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 500px;
+    
+}
+
+.trend {
+    height: 250px;
+    width: calc(50% - 4px);
+    height: 100px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+}
+
+.main {
+    padding-top: 330px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.card {
+    flex-direction: column;
+    width: 390px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border-bottom: solid 3px #eeeeee;
+}
+
+.card:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.aside {
+    padding-left: 35px;
+}
+
+.products__container {
+    gap: 22px;
+}
+
+.product {
+    margin: 0;
+}
+
+.img-picture {
+    margin-bottom: 10px;
+}
+
+.card__time {
+    display: inline;
+}
+
+.card__author {
+    display: inline;
+}
